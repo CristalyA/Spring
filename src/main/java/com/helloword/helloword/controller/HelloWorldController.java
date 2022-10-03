@@ -16,7 +16,8 @@ public class HelloWorldController {
 	
 	@GetMapping("/bsm")
 	public String Bsm() {
-		return "Mentalidades :<br>Responsabilidade Pessoal ! <br>Mentalidade de Crescimento! ";
+		return "Mentalidades :<br>Responsabilidade Pessoal <br>Mentalidade de Crescimento <br>Orientação ao futuro <br>Persistência"
+				+ "<br>Habilidades comportamentais: <br>Comunicação <br>Atenção aos detalhes <br>Proatividade  ";
 	}
 	
 	@GetMapping("/expectativa")
